@@ -271,6 +271,9 @@ header {
 .p1-card {
   margin-bottom: 130px;
 }
+.menu {
+  display: none;
+}
 .p2-card {
   margin-bottom: 90px;
 }
