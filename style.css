@@ -27,6 +27,7 @@ header {
   top: 0;
   background-color: rgba(255, 255, 255, 1);
   z-index: 22;
+  box-shadow: 10px 20px 20px -15px #efefef;
 }
 .navbar {
   display: flex;
@@ -742,6 +743,13 @@ footer {
     top: 1000px;
     /* top: 4300px; */
   }
+  .third-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    justify-content: center;
+    margin-top: 95px;
+  }
   .subs {
     width: 250px;
     height: 60px;
@@ -785,6 +793,24 @@ footer {
     right: 0;
     top: 1100px;
     /* top: 4300px; */
+  }
+  .p-4 {
+    width: 300.4px;
+    height: 100px;
+    color: #0b132a;
+    font-size: 24px;
+    font-family: Rubik;
+    font-weight: 500px;
+    line-height: 50px;
+    padding-bottom: 20px;
+  }
+  .p-5 {
+    width: 308px;
+    height: 60px;
+    color: #4f5665;
+    font-size: 10px;
+    font-family: Rubik;
+    line-height: 30px;
   }
 }
 @media (max-width: 390px) {
